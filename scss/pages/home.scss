@@ -1,2 +1,26 @@
+// --------------
+// import all global SCSS
+// --------------
 
 @import"../global";
+
+// --------------
+// Img in header
+// --------------
+
+.mainImg {
+	display: block;
+  	margin: 0 auto;
+  	margin-top: -10rem;
+	text-align: center;
+	width: 135rem;
+	z-index: 3;
+}
+
+// main logo in header position
+
+.mainLogoImg {
+	margin-left: 21rem;
+    margin-top: -9rem;
+	z-index: 1;
+}
