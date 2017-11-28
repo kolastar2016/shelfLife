@@ -1,3 +1,17 @@
-p {
-	color: blue;
+// ---------------------------
+// Typography and text styles
+// ---------------------------
+
+html {
+  font-size: 10px; // static size
+}
+
+.navigationMenuUp .nav .nav-link {
+	color: white;
+	font-weight: bold;
+}
+
+.navigationMenuDown .nav .nav-link {
+	color: black;
+	font-weight: bold;
 }

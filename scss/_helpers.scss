@@ -1,0 +1,69 @@
+// --------------
+// nav position
+// -------------
+.navigationMenu {
+	background-color: white;
+	margin-bottom: -5rem;
+    z-index: 2;
+}
+
+.navigationMenuUp {
+	padding-left: 41rem;
+	margin-top: 0rem;
+	margin-bottom: 2rem;
+	color: white;
+	background: black;
+	height: 4rem;
+    padding-top: 1rem;
+}
+
+.navigationMenuUp > ul > p {
+    margin-right: 13rem;
+	z-index: 1;
+}
+
+.navigationMenuUp > ul > p > li {
+	margin-left: 25rem;
+	color: white;
+	z-index: 1;
+}
+
+.navigationMenuUp > ul > li {
+	margin-left: 0rem;
+	color: white;
+	z-index: 1;
+}
+
+.navigationMenuDown {
+	margin-left: 38rem;
+    font-size: 1.5rem;
+    margin-top: -2rem;
+    margin-bottom: -1rem;
+
+}
+
+.navigationMenuDown > ul > li {
+	border: 0.005rem solid grey;
+    margin-top: 0rem;
+    margin-bottom: -1.3rem;
+    padding: 2rem 3rem 2rem 2.5rem;
+    z-index: 4;
+}
+
+// carousel indicators and other
+
+.carousel-indicators .indicators {
+ 	border-radius: 100rem;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.pumaLogo {
+	margin-top: -100rem;
+}
+
+.h2 {
+	margin-top: -47rem;
+	color: initial ;
+	color: #ff6600;
+}
