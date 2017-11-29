@@ -15,3 +15,88 @@ html {
 	color: black;
 	font-weight: bold;
 }
+
+// text on logo in header
+
+.textInLogoMain {
+    margin-top: 16rem;
+    font-size: 6rem;
+}
+
+.textInLogoSecond {
+	font-size: 1.5rem;
+	color: #999999;
+}
+
+// text on blog section
+
+.textBlog {
+	text-align: center;
+    margin-top: 20rem;
+    font-size: 5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.textBlogSmall {
+	text-align: center;
+	font-size: 1.5rem;
+	color: #999999;
+}
+
+.textOnBlogNearImgLeft {
+	float: left;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+    margin-bottom: -1rem;
+    padding-top: 10rem;
+    background: white;
+}
+
+.textOnBlogNearImgRight {
+	float: left;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+    padding-top: 10rem;
+    margin: 0rem;
+    background: white;
+}
+
+.textOnBlogNearImgLeftSecond {
+	font-size: 2rem;
+    font-weight: bold;
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+    padding-top: 10rem;
+    float: left;
+    margin-left: -1rem;
+    background: white;
+}
+
+.textOnBlogNearImgRightSecond {
+	font-size: 2rem;
+    font-weight: bold;
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+    padding-top: 10rem;
+    float: right;
+    margin-left: -1rem;
+    margin-top: -2rem;
+    background: white;
+}
+
+// lable style
+
+.lable {
+	margin: 5rem 0rem 5rem 19rem;
+	display: inline-flex;
+	font-size: 2rem;
+}
