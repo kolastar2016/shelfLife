@@ -53,17 +53,29 @@
 // carousel indicators and other
 
 .carousel-indicators .indicators {
+	margin-bottom: 4rem;
  	border-radius: 100rem;
     width: 0.5rem;
     height: 0.5rem;
 }
 
 .pumaLogo {
-	margin-top: -100rem;
+	height: 4rem;
+	margin-top: -126rem;
 }
 
-.h2 {
-	margin-top: -47rem;
-	color: initial ;
+.lineBackground {
+	margin-top: -60rem;
 	color: #ff6600;
+}
+
+// Blog style
+
+.positionBlog {
+	margin-top: 10rem;
+	background: #f4f4f4;
+}
+
+.textAndImgSmall {
+	margin-left: 8rem;
 }
