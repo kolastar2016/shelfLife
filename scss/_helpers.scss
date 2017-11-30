@@ -79,3 +79,54 @@
 .textAndImgSmall {
 	margin-left: 8rem;
 }
+
+// cube
+
+.cube {
+	margin-bottom: -5.5rem;
+    margin-left: 66rem;
+    width: 15rem;
+    z-index: 2;
+
+    &:hover {
+    	margin-bottom: -5.5rem;
+   		margin-left: 66rem;
+    	width: 15rem;
+    	color: white;
+    	
+    }
+}
+
+// triangle style and position
+
+.triangleRight {
+    margin-left: 30rem;
+    margin-top: -8rem;
+}
+
+.triangleLeft {
+    margin-left: -23.5rem;
+    margin-top: -13rem;
+}
+
+// footer helpers
+
+.footerIconStyle {
+	display: flex;
+}
+
+.iconStyle {
+	display: inline-block;
+	width: 3.5rem;
+	border: 1px solid black;
+	margin: 0rem 1rem 1rem 1rem;
+
+	&:hover {
+		display: inline-block;
+		border: 0.1rem solid white;
+		margin: 0rem 1rem 0rem 1rem;
+		border-radius: 5rem;
+    	width: 3.5rem;
+    	height: 3.5rem;
+	}
+}

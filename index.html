@@ -122,8 +122,30 @@
             </div>
         </div>
     </head>
-    <section> <!-- Blog -->
-        <div>
+    <section class="section"> <!-- Blog -->
+        <div> <!-- move img -->
+            <div class="animation-element slide-left testimonial">
+            <div class="header">
+                <div class="left"></div>
+            <div class="right">
+                <h3>Nixon<br>
+                    Perimeter<br>
+                    Collection.</h3>
+                <h4><a href="#">SHOP COLLECTION > </a><a href="#">ALL WATCHES > </a></h4>
+            </div>
+            </div>
+        </div>
+        <div class="animation-element slide-left testimonial">
+            <div class="header">
+                <div class="left"></div>
+            <div class="right">
+                <h3>Sweetest<br>
+                    Pack of<br>
+                    Air Maxes</h3>
+                <h4><a href="#"> VIEW THE PACK > </a></h4>
+            </div>
+            </div>
+        </div>
         </div>
         <div>
             <p class="textBlog">From the Blog</p>
@@ -134,6 +156,7 @@
                     <p class="textOnBlogNearImgLeft">
                         Holy Shriiimp! <br> The Bidle vol.1 <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
+                        <canvas id="triangleRight" class="triangleRight"></canvas>
                     </p>
                     <img class="imgOnBlogRightSmall" src="img/womenPageColor.jpg">
                 </div>
@@ -142,9 +165,13 @@
                     <p class="textOnBlogNearImgRight">
                         The shelflife "Classic <br> Dripper" is black <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
+                        <canvas id="triangleLeft" class="triangleLeft"></canvas>
                     </p>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="sectionNext">
             <div> <!-- 2 -->
                 <img class="imgOnBlogRight" src="img/mans.jpg">
                 <div class="textAndImgSmall">
@@ -152,6 +179,7 @@
                     <p class="textOnBlogNearImgLeftSecond">
                         Rubbing shouolders with <br> Martha Cooper <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
+                        <canvas id="triangleRightOne" class="triangleRight"></canvas>
                     </p>
                 </div>
                 <div >
@@ -159,15 +187,19 @@
                     <p class="textOnBlogNearImgRightSecond">
                         Puma x BWGH August <br> Releases <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
+                        <canvas id="triangleLeftOne" class="triangleLeft"></canvas>
                     </p>
                 </div>
             </div>
+    </section>
+    <section class="sectionNext">
             <div> <!-- 3 -->
                 <img class="imgOnBlogLeft" src="img/manBlack.jpg">
                 <div >
                     <p class="textOnBlogNearImgLeft">
                         RIP Ekon 40HK <br> Remembrance Park Jam <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
+                        <canvas id="triangleRightTwo" class="triangleRight"></canvas>
                     </p>
                     <img class="imgOnBlogRightSmall" src="img/girlDrink.jpg">
                 </div>
@@ -176,16 +208,20 @@
                     <p class="textOnBlogNearImgRight">
                         Adidas Original <br> Stan Smith OG <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
+                        <canvas id="triangleLeftTwo" class="triangleLeft"></canvas>
                     </p>
                 </div>
             </div>
+    </section>
+    <section class="sectionLast">
             <div> <!-- 4 -->
                 <img class="imgOnBlogRight" src="img/whiteTezt.jpg">
                 <div class="textAndImgSmall">
                     <img class="imgOnBlogRightSmallSecond" src="img/manAndColor.jpg">
-                    <p class="textOnBlogNearImgLeftSecond">
+                    <p class="textOnBlogNearImgLeftSecondChang">
                         Rubbing shouolders with <br> Martha Cooper <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
+                        <canvas id="triangleRightThree" class="triangleRight"></canvas>
                     </p>
                 </div>
                 <div>
@@ -193,13 +229,16 @@
                     <p class="textOnBlogNearImgRightSecond">
                         Puma x BWGH August <br> Releases <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
+                        <canvas id="triangleLeftThree" class="triangleLeft"></canvas>
                     </p>
                 </div> 
             </div>
-            <div></div> <!-- button -->
-        </div>
     </section>
-    <section> <!-- Lable -->
+    <section class="sectionButton">
+        <div class="buttonHoverBlog">READ MORE</div> <!-- button -->
+        <hr class="hr">
+    </section>
+    <section class="sectionLable"> <!-- Lable -->
         <div>
             <div class="lable">
                 <p><img src="img/adidasLable.jpg">   &times;    
@@ -212,24 +251,74 @@
             </div>
         </div>
     </section>
-    <section> <!-- navFooter -->
-        
+    <section>
+        <canvas id="cube" class="cube"></canvas> <!-- orange cube -->
     </section>
-    <footer> <!-- footer -->
-        <!-- <div>
-             <div class="footicon ">
-            <i class="fa fa-globe fa-2x" aria-hidden="true" onclick="location.href='https://github.com/kolastar2016'"></i>
+    <section class="sectionFooter"> <!-- navFooter -->
+        <div>
+            <nav class="footerNavLeft">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Online Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">How to Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <img class="footerNavImg" src="img/footerLogo.jpg">
+            <div> 
+                <nav class="footerNavRight">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Shipping Policy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Terms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ's</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Site Security</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <div class="footicon ">
-            <i class="fa fa-instagram fa-2x" aria-hidden="true" onclick="location.href='https://www.instagram.com/'"></i>
+    </section>
+    <footer class="sectionFooter">
+        <div>
+            <p class="footerLineLeft">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</p>
+            <div class="footerIconStyle">
+                <div class="iconStyle">
+                    <img src="https://png.icons8.com/facebook/win10/32/868686">
+                </div>    
+                <div class="iconStyle">
+                    <img src="https://png.icons8.com/twitter/win10/32/868686">
+                </div>
+                <div class="iconStyle">
+                    <img src="https://png.icons8.com/pinterest/win10/32/868686">
+                </div>
+                <div class="iconStyle">
+                    <img src="https://png.icons8.com/instagram-old/win10/32/868686">
+                </div>
+            </div>
+            <p class="footerLineRight">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</p>
         </div>
-        <div class="footicon ">
-           <i class="fa fa-envelope-o fa-2x" aria-hidden="true" onclick="location.href='http://meta.ua/'"></i>
-        </div>
-        <div class="footicon ">
-           <i class="fa fa-rss fa-2x" aria-hidden="true" onclick="location.href='https://www.ukr.net/news/kiev.html'"></i>
-        </div>
-        </div> -->
+        <p class="footerText"> &copy; SHELFLIFE STORE ALL RIGHTS RESERVED</p>
     </footer>
 <!--scripts-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>

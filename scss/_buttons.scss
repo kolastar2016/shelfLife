@@ -8,3 +8,18 @@
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+
+// button underblog
+
+.buttonHoverBlog {
+	border: 0.3rem solid #c4c4c4;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0rem 58rem 0rem 62rem;
+    padding: 1rem 1rem 1rem 1.5rem;
+
+    &:hover {
+    	color: white;
+    	background: #c4c4c4;
+    }
+}
