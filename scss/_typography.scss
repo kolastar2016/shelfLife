@@ -6,6 +6,45 @@ html {
   font-size: 10px; // static size
 }
 
+//section style
+
+.section {
+	height: 80rem;
+}
+
+.sectionNext {
+	height: 56rem;
+}
+
+.sectionLast {
+	height: 96rem;
+}
+
+.sectionButton {
+	height: 10rem;
+}
+
+.sectionLable{
+	height: 20rem;
+}
+
+.sectionFooter {
+	height: 20rem;
+	background: black;
+	color: white;
+	padding-top: 3rem;
+}
+
+.hr {
+	border: none;
+    background-color: #c4c4c4;
+    height: 0.1rem;
+    width: 134.9rem;
+    margin-top: 6rem;
+}
+
+// navigation menu style in header
+
 .navigationMenuUp .nav .nav-link {
 	color: white;
 	font-weight: bold;
@@ -77,6 +116,7 @@ html {
     padding-top: 10rem;
     float: left;
     margin-left: -1rem;
+    margin-bottom: 0rem;
     background: white;
 }
 
@@ -89,14 +129,82 @@ html {
     padding-top: 10rem;
     float: right;
     margin-left: -1rem;
-    margin-top: -2rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    background: white;
+}
+
+.textOnBlogNearImgLeftSecondChang {
+	font-size: 2rem;
+    font-weight: bold;
+    height: 30rem;
+    width: 30rem;
+    text-align: center;
+    padding-top: 10rem;
+    float: right;
+    margin-left: -1rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     background: white;
 }
 
 // lable style
 
 .lable {
-	margin: 5rem 0rem 5rem 19rem;
+	margin: 5rem 0rem 5rem 23rem;
 	display: inline-flex;
 	font-size: 2rem;
+}
+
+// navigation footer menu
+
+.footerNavLeft {
+	font-size: 1.5rem;
+	float: left;
+	margin: 3rem 0rem 0rem 8rem;
+}
+
+.footerNavRight {
+	font-size: 1.5rem;
+	float: right;  
+	margin: 3rem 8rem 0rem 0rem;
+}
+
+.footerNavLeft .nav .nav-item .nav-link {
+	color: #868686;
+
+	&:hover {
+		text-decoration: none;
+		color: white;
+		 border-bottom: 0.1rem solid #ff6600;
+	}
+}
+
+.footerNavRight .nav .nav-item .nav-link {
+	color: #868686;
+
+	&:hover {
+		text-decoration: none;
+		color: white;
+		 border-bottom: 0.1rem solid #ff6600;
+	}
+}
+
+.footerLineLeft {
+	color: #868686;
+	float: left;
+	margin: 1rem 7rem 0rem 9rem;
+	
+}
+
+.footerLineRight {
+	color: #868686;
+	float: right;
+	margin: -3.5rem 8rem 0rem 0rem;
+}
+
+.footerText {
+	font-size: 1.2rem;
+	color: #868686;
+	margin: 5rem 0rem 0rem 58rem;
 }

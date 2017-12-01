@@ -1,0 +1,133 @@
+//-------------
+// animation fo main position
+//-------------
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+/*clearfixes*/
+
+.cf:before,
+  .cf:after {
+   content: " ";
+   display: table;
+  }
+
+.cf:after {
+  clear: both;
+}
+
+.container {
+  position: relative;
+ // padding: 25px;
+}
+
+/*animation element*/
+
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+
+/*animation element sliding left*/
+
+.animation-element.slide-left {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(-100px, 0px, 0px);
+  -webkit-transform: translate3d(-100px, 0px, 0px);
+  -o-transform: translate(-100px, 0px);
+  -ms-transform: translate(-100px, 0px);
+  transform: translate3d(-100px, 0px, 0px);
+}
+
+.animation-element.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+/*animation slide left styled for testimonials*/
+
+.animation-element.slide-left.testimonial {
+  float: left;
+  background: url("../../img/clock.jpg")  no-repeat center center;
+  padding: 25rem;
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(odd) {
+  width: 46.5%;
+  margin: 0% 0% 0% 5%;
+  margin-top: -30rem;
+  background: url("../../img/clock.jpg")  no-repeat center center;
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(even) {
+  width: 46.5%;
+  margin: 0% 0% 0% -3%;
+  margin-top: -30rem;
+  background: url("../../img/shoesColor.jpg")  no-repeat center center;
+}
+
+.animation-element.slide-left.testimonial .header{
+  float: left;
+  width: 100%;
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(odd) h3 {
+    margin: -16rem 0rem 0rem -10rem;
+    color: white;
+    font-size: 4rem;
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(even) h3 {
+    margin: -16rem 0rem 0rem -18rem;
+    color: white;
+    font-size: 4rem;
+}
+
+.animation-element.slide-left.testimonial:nth-of-type(even) h4 {
+  margin: 0px 0px 5px 0px;
+}
+
+.animation-element.slide-left.testimonial .content {
+  float: left;
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.animation-element.slide-left.testimonial .rating{}
+
+.animation-element.slide-left.testimonial i {
+  color: #aaa;
+  margin-right: 5px;
+}
+
+/*media queries for small devices*/
+
+@media screen and (max-width: 678px){
+  /*testimonials*/
+  .animation-element.slide-left.testimonial,
+  .animation-element.slide-left.testimonial:nth-of-type(odd),
+  .animation-element.slide-left.testimonial:nth-of-type(even){
+    width: 100%;
+  }
+
+  .animation-element.slide-left.testimonial .right,
+  .animation-element.slide-left.testimonial .left,
+  .animation-element.slide-left.testimonial .content,
+  .animation-element.slide-left.testimonial .rating{
+    text-align: center;
+    float: none;
+  }
+}
