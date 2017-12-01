@@ -23,7 +23,6 @@
 
 .container {
   position: relative;
- // padding: 25px;
 }
 
 /*animation element*/
@@ -68,7 +67,7 @@
 .animation-element.slide-left.testimonial:nth-of-type(odd) {
   width: 46.5%;
   margin: 0% 0% 0% 5%;
-  margin-top: -30rem;
+  margin-top: -32rem;
   background: url("../../img/clock.jpg")  no-repeat center center;
 }
 
@@ -85,7 +84,7 @@
 }
 
 .animation-element.slide-left.testimonial:nth-of-type(odd) h3 {
-    margin: -16rem 0rem 0rem -10rem;
+    margin: -14rem 0rem -2rem -19rem;
     color: white;
     font-size: 4rem;
 }
@@ -96,8 +95,18 @@
     font-size: 4rem;
 }
 
-.animation-element.slide-left.testimonial:nth-of-type(even) h4 {
-  margin: 0px 0px 5px 0px;
+.animation-element.slide-left.testimonial h4  {
+    margin: 18rem 0rem -14rem -19rem;
+    text-decoration: none;
+ }
+
+.animation-element.slide-left.testimonial:nth-of-type(even) h4  {
+    margin: 16rem 0rem -16rem -17rem;
+    text-decoration: none;
+}
+
+.animation-element.slide-left.testimonial h4 a {
+  color: white;
 }
 
 .animation-element.slide-left.testimonial .content {
