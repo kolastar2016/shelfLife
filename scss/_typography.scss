@@ -46,13 +46,21 @@ html {
 // navigation menu style in header
 
 .navigationMenuUp .nav .nav-link {
-	color: white;
+	color: #7e7e7e;
 	font-weight: bold;
+
+	&:hover {
+    	color: white;
+    }
 }
 
 .navigationMenuDown .nav .nav-link {
 	color: black;
 	font-weight: bold;
+
+	&:hover {
+    	color: #ff6600;
+    }
 }
 
 // text on logo in header
@@ -70,7 +78,8 @@ html {
 // text on blog section
 
 .textBlog {
-	text-align: center;
+    margin-right: 54rem;
+    text-align: right;
     margin-top: 20rem;
     font-size: 5rem;
     font-weight: bold;
@@ -81,6 +90,7 @@ html {
 	text-align: center;
 	font-size: 1.5rem;
 	color: #999999;
+	margin-right: 10rem;
 }
 
 .textOnBlogNearImgLeft {
