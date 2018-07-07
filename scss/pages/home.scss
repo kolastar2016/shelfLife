@@ -1,5 +1,5 @@
 // --------------
-// import all global SCSS
+// import all global css
 // --------------
 
 @import"../global";
@@ -8,37 +8,56 @@
 // Img in header
 // --------------
 
+* {
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.wrap{
+	width:auto;
+	margin:0 auto;
+}
+
+.pad {
+	padding: 0 !important;
+}
+
+.marg {
+	margin: 0 auto !important;
+}
+
+.bgBlog {
+	background: #f4f4f4;
+}
+
 .mainImg {
 	display: block;
   	margin: 0 auto;
   	margin-top: -10rem;
+	height: 87rem;
 	text-align: center;
-	width: 135rem;
-	z-index: 3;
 }
 
 // main logo in header position
-
 .mainLogoImg {
-	margin-left: 21rem;
-    margin-top: -9rem;
+	margin-left: 9rem;
+    position: absolute;
 	z-index: 1;
 }
 
 // position image on blog
 
 .imgOnBlogLeft {
-	float: left;
 	height: 60rem;
 	width: 60rem;
-    margin-left: 8rem;	
+	float: right;
 }
 
 .imgOnBlogRight {
-	float: right;
+	float: left;
 	height: 60rem;
 	width: 60rem;
-    margin-right: 7rem;
 }
 
 .imgOnBlogRightSmall {
@@ -64,8 +83,7 @@
 	width: 30rem;
     height: 30rem;
     float: left;
-    margin-left: 8rem;
-    margin-top: 0rem;
+	margin-left: 11%;
 }
 
 //footer img

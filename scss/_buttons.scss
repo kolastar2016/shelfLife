@@ -2,9 +2,7 @@
 
 .buttonHover {
 	border: 0.1rem solid white;
-	margin-top: 7rem;
-    margin-left: 40rem;
-    margin-right: 40rem;
+	margin: 10rem 40rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
 
@@ -20,8 +18,11 @@
 	border: 0.3rem solid #c4c4c4;
     font-size: 2rem;
     font-weight: bold;
-    margin: 0rem 58rem 0rem 62rem;
-    padding: 1rem 1rem 1rem 1.5rem;
+    padding: 1rem 4rem ;
+    height: 6rem;
+    width: 21rem;
+    position: relative;
+    top: 3rem;
 
     &:hover {
     	color: white;

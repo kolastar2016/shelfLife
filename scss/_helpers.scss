@@ -7,48 +7,57 @@
     z-index: 2;
 }
 
-.navigationMenuUp {
-	padding-left: 41rem;
-	margin-top: 0rem;
-	margin-bottom: 2rem;
+.MenuTop {
+	padding: 1rem 23rem;
 	color: white;
 	background: black;
 	height: 4rem;
-    padding-top: 1rem;
 }
 
-.navigationMenuUp > ul > p {
+.MenuTop > ul > p {
 	color: #7e7e7e;
-    margin-right: 13rem;
+    margin-left: 6rem;
 	z-index: 1;
 }
 
-.navigationMenuUp > ul > p > li {
-	margin-left: 25rem;
+.MenuTop > ul > li {
+	margin: 0;
 	color: white;
 	z-index: 1;
 }
 
-.navigationMenuUp > ul > li {
-	margin-left: 0rem;
-	color: white;
-	z-index: 1;
-}
-
-.navigationMenuDown {
-	margin-left: 38rem;
+.MenuBottom {
     font-size: 1.5rem;
-    margin-top: -2rem;
-    margin-bottom: -1rem;
-
+	padding: 0 26rem;
+	height: 7rem;
 }
 
-.navigationMenuDown > ul > li {
+.MenuBottom > ul > li {
+	margin: 0;
 	border: 0.005rem solid grey;
     margin-top: 0rem;
     margin-bottom: -1.3rem;
     padding: 2rem 3rem 2rem 2.5rem;
-    z-index: 4;
+}
+
+// navigation menu style in header
+
+.MenuTop .nav .nav-link {
+	color: #7e7e7e;
+	font-weight: bold;
+
+	&:hover {
+		color: white;
+	}
+}
+
+.MenuBottom .nav .nav-link {
+	color: black;
+	font-weight: bold;
+
+	&:hover {
+		color: #ff6600;
+	}
 }
 
 // carousel indicators and other
@@ -74,7 +83,6 @@
 
 .positionBlog {
 	margin-top: 10rem;
-	background: #f4f4f4;
 }
 
 .textAndImgSmall {
@@ -84,14 +92,12 @@
 // cube
 
 .cube {
-	margin-bottom: -5.5rem;
-    margin-left: 66rem;
+	position: relative;
+	bottom: 6.5rem;
     width: 15rem;
-    z-index: 2;
+	margin-left: 49%;
 
     &:hover {
-    	margin-bottom: -5.5rem;
-   		margin-left: 66rem;
     	width: 15rem;
     	color: white;
     	
@@ -99,7 +105,6 @@
 }
 
 // triangle style and position
-
 .triangleRight {
     margin-left: 30rem;
     margin-top: -8rem;
@@ -111,7 +116,6 @@
 }
 
 // footer helpers
-
 .footerIconStyle {
 	display: flex;
 }
@@ -119,7 +123,8 @@
 .iconStyle {
 	display: inline-block;
 	width: 3.5rem;
-	border: 1px solid black;
+	border: 1px solid #aaaaaa;
+	border-radius: 5rem;
 	margin: 0rem 1rem 1rem 1rem;
 
 	&:hover {
