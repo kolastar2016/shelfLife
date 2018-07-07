@@ -32,7 +32,7 @@ triangleRightWhite.beginPath();
 triangleRightWhite.moveTo(0,0);	//начало
 triangleRightWhite.lineTo(25,25);	//1 точка
 triangleRightWhite.lineTo(0,50);	//2 точка
-triangleRightWhite.fillStyle='#ffffff';		
+triangleRightWhite.fillStyle='#fff';
 triangleRightWhite.fill();
 
 

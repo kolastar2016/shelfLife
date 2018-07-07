@@ -7,25 +7,28 @@ html {
 }
 
 //section style
-
 .section {
 	height: 80rem;
+    padding: 0;
+    margin: 0 auto;
 }
-
-.sectionNext {
-	height: 56rem;
-}
-
-.sectionLast {
-	height: 96rem;
+.sectionBlog {
+  height: 60rem;
+  margin: 0 auto;
 }
 
 .sectionButton {
-	height: 10rem;
+	height: 12rem;
 }
 
 .sectionLable{
 	height: 20rem;
+}
+
+.sectionCube {
+    height: 0rem;
+    bottom: 1rem;
+    margin-bottom: -4rem;
 }
 
 .sectionFooter {
@@ -43,28 +46,8 @@ html {
     margin-top: 6rem;
 }
 
-// navigation menu style in header
-
-.navigationMenuUp .nav .nav-link {
-	color: #7e7e7e;
-	font-weight: bold;
-
-	&:hover {
-    	color: white;
-    }
-}
-
-.navigationMenuDown .nav .nav-link {
-	color: black;
-	font-weight: bold;
-
-	&:hover {
-    	color: #ff6600;
-    }
-}
 
 // text on logo in header
-
 .textInLogoMain {
     margin-top: 16rem;
     font-size: 6rem;
@@ -76,21 +59,18 @@ html {
 }
 
 // text on blog section
-
 .textBlog {
-    margin-right: 54rem;
-    text-align: right;
-    margin-top: 20rem;
-    font-size: 5rem;
-    font-weight: bold;
-    color: black;
+  text-align: center;
+  margin-top: 47rem;
+  font-size: 5rem;
+  font-weight: bold;
+  color: black;
 }
 
 .textBlogSmall {
 	text-align: center;
 	font-size: 1.5rem;
 	color: #999999;
-	margin-right: 10rem;
 }
 
 .textOnBlogNearImgLeft {
@@ -124,8 +104,7 @@ html {
     width: 30rem;
     text-align: center;
     padding-top: 10rem;
-    float: left;
-    margin-left: -1rem;
+    float: right;
     margin-bottom: 0rem;
     background: white;
 }
@@ -159,15 +138,15 @@ html {
 }
 
 // lable style
-
 .lable {
-	margin: 5rem 0rem 5rem 23rem;
-	display: inline-flex;
-	font-size: 2rem;
+    display: flex;
+    font-size: 2rem;
+    margin: 0 auto;
+    top: 3rem;
+    position: relative;
 }
 
 // navigation footer menu
-
 .footerNavLeft {
 	font-size: 1.5rem;
 	float: left;
@@ -216,5 +195,6 @@ html {
 .footerText {
 	font-size: 1.2rem;
 	color: #868686;
-	margin: 5rem 0rem 0rem 58rem;
+	margin: 5rem ;
+    text-align: center;
 }

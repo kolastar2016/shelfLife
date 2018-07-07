@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
 </head>
 <body>
-    <head>
-        <div>
-            <!-- navigation -->
-            <div>
-                <div>
-                    <nav class="navigationMenuUp">
+    <section class="wrap">
+        <!--Header navigation-->
+        <header>
+            <img class="mainLogoImg" src="img/mainLogo.jpg">
+            <div class="">
+                <div class="">
+                    <nav class="MenuTop">
                         <ul class="nav">
                             <p>INTERNATIONAL ONLINE SNEAKER AND STREET WEAR SHOP</p>
                             <li class="nav-item">
@@ -30,34 +31,37 @@
                             </li>
                         </ul>
                     </nav>
-                    <div> 
-                        <nav class="navigationMenuDown">
-                            <ul class="nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#">New</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Men</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Women</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#">Sale</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link " href="#">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <img class="mainLogoImg" src="img/mainLogo.jpg">
-                    </div>
+                </div>
+                <div class="">
+                    <nav class="MenuBottom">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">New</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Men</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Women</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Sale</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <!-- carousel -->
+        </header>
+    </section>
+    <!-- Carousel -->
+    <section class="wrap">
+        <div class="">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" class="indicators" data-slide-to="0" class="active"></li>
@@ -121,9 +125,10 @@
                 <a class="carousel-control-next minus" href="#carouselExampleIndicators" role="button" data-slide="next"> &mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash; </a>
             </div>
         </div>
-    </head>
-    <section class="section"> <!-- Blog -->
-        <div> <!-- move img -->
+    </section>
+    <!-- Move img -->
+    <section class="moveImgPosition">
+        <div>
             <div class="animation-element slide-left testimonial">
             <div class="header">
                 <div class="left"></div>
@@ -148,33 +153,39 @@
             </div>
         </div>
         </div>
-        <div>
-            <div><p class="textBlog">From the Blog</p></div>
-            <p class="textBlogSmall">Lorem ipsum dolor sit amet, consectetur adipiscing alit, sed do.</p>
-            <div class="positionBlog"> <!-- 1 -->
-                <img class="imgOnBlogLeft" src="img/womenPage.jpg">
-                <div>
-                    <p class="textOnBlogNearImgLeft">
-                        Holy Shriiimp! <br> The Bidle vol.1 <br> <br>
-                        <a href=""><img src="img/string.jpg"></a>
-                        <canvas id="triangleRight" class="triangleRight"></canvas>
-                    </p>
-                    <img class="imgOnBlogRightSmall" src="img/womenPageColor.jpg">
+    </section>
+    <!--First blog-->
+    <section class="section bgBlog">
+        <p class="textBlog">From the Blog</p>
+        <p class="textBlogSmall">Lorem ipsum dolor sit amet, consectetur adipiscing alit, sed do.</p>
+        <div class="positionBlog">
+            <div class="row marg">
+                <div class="col-xs-6 col-md-6 col-sm-6 pad">
+                    <img class="imgOnBlogLeft" src="img/womenPage.jpg">
                 </div>
-                <div>
-                    <img class="imgOnBlogLeftSmall" src="img/shoes.jpg">
-                    <p class="textOnBlogNearImgRight">
-                        The shelflife "Classic <br> Dripper" is black <br> <br>
-                        <a href=""><img src="img/string.jpg"></a>
-                        <canvas id="triangleLeft" class="triangleLeft"></canvas>
-                    </p>
+                <div class="col-xs-6 col-md-6 col-sm-6 pad">
+                    <div>
+                        <p class="textOnBlogNearImgLeft">
+                            Holy Shriiimp! <br> The Bidle vol.1 <br> <br>
+                            <a href=""><img src="img/string.jpg"></a>
+                            <canvas id="triangleRight" class="triangleRight"></canvas>
+                        </p>
+                        <img class="imgOnBlogRightSmall" src="img/womenPageColor.jpg">
+                        <img class="imgOnBlogLeftSmall" src="img/shoes.jpg">
+                        <p class="textOnBlogNearImgRight">
+                            The shelflife "Classic <br> Dripper" is black <br> <br>
+                            <a href=""><img src="img/string.jpg"></a>
+                            <canvas id="triangleLeft" class="triangleLeft"></canvas>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="sectionNext">
-            <div> <!-- 2 -->
-                <img class="imgOnBlogRight" src="img/mans.jpg">
+    <!--Second blog-->
+    <section class="sectionBlog bgBlog">
+        <div class="row marg">
+            <div class="col-xs-6 col-md-6 col-sm-6 pad">
                 <div class="textAndImgSmall">
                     <img class="imgOnBlogRightSmallSecond" src="img/womenBlack.jpg">
                     <p class="textOnBlogNearImgLeftSecond">
@@ -183,20 +194,26 @@
                         <canvas id="triangleRightOne" class="triangleRight"></canvas>
                     </p>
                 </div>
-                <div >
-                    <img class="imgOnBlogLeftSmallSecond" src="img/shoesFeet.jpg">
-                    <p class="textOnBlogNearImgRightSecond">
-                        Puma x BWGH August <br> Releases <br> <br>
-                        <a href=""><img src="img/string.jpg"></a>
-                        <canvas id="triangleLeftOne" class="triangleLeft"></canvas>
-                    </p>
-                </div>
+                <img class="imgOnBlogLeftSmallSecond" src="img/shoesFeet.jpg">
+                <p class="textOnBlogNearImgRightSecond">
+                    Puma x BWGH August <br> Releases <br> <br>
+                    <a href=""><img src="img/string.jpg"></a>
+                    <canvas id="triangleLeftOne" class="triangleLeft"></canvas>
+                </p>
             </div>
+            <div class="col-xs-6 col-md-6 col-sm-6 pad">
+                <img class="imgOnBlogRight" src="img/mans.jpg">
+            </div>
+        </div>
     </section>
-    <section class="sectionNext">
-            <div> <!-- 3 -->
+    <!--Third blog-->
+    <section class="sectionBlog bgBlog">
+        <div class="row marg">
+            <div class="col-xs-6 col-md-6 col-sm-6 pad">
                 <img class="imgOnBlogLeft" src="img/manBlack.jpg">
-                <div >
+            </div>
+            <div class="col-xs-6 col-md-6 col-sm-6 pad">
+                <div>
                     <p class="textOnBlogNearImgLeft">
                         RIP Ekon 40HK <br> Remembrance Park Jam <br> <br>
                         <a href=""><img src="img/string.jpg"></a>
@@ -213,10 +230,12 @@
                     </p>
                 </div>
             </div>
+        </div>
     </section>
-    <section class="sectionLast">
-            <div> <!-- 4 -->
-                <img class="imgOnBlogRight" src="img/whiteTezt.jpg">
+    <!--Fourth blog-->
+    <section class="sectionBlog bgBlog">
+        <div class="row marg">
+            <div class="col-xs-6 col-md-6 col-sm-6 pad">
                 <div class="textAndImgSmall">
                     <img class="imgOnBlogRightSmallSecond" src="img/manAndColor.jpg">
                     <p class="textOnBlogNearImgLeftSecondChang">
@@ -232,14 +251,20 @@
                         <a href=""><img src="img/string.jpg"></a>
                         <canvas id="triangleLeftThree" class="triangleLeft"></canvas>
                     </p>
-                </div> 
+                </div>
             </div>
+            <div class="col-xs-6 col-md-6 col-sm-6 pad">
+                <img class="imgOnBlogRight" src="img/whiteTezt.jpg">
+            </div>
+        </div>
     </section>
-    <section class="sectionButton">
+    <!--Button "Read More"-->
+    <section class="sectionButton bgBlog">
         <div class="buttonHoverBlog">READ MORE</div> <!-- button -->
         <hr class="hr">
     </section>
-    <section class="sectionLable"> <!-- Lable -->
+    <!--Lable-->
+    <section class="sectionLable">
         <div>
             <div class="lable">
                 <p><img src="img/adidasLable.jpg">   &times;    
@@ -249,13 +274,15 @@
                     <img src="img/neLable.jpg">     &times; 
                     <img src="img/easicsLable.jpg">
                 </p>
-            </div>
+            </div><hr class="hr">
         </div>
     </section>
-    <section>
-        <canvas id="cube" class="cube"></canvas> <!-- orange cube -->
+    <!--button top-->
+    <section class="sectionCube">
+        <canvas id="cube" class="cube"></canvas>
     </section>
-    <section class="sectionFooter"> <!-- navFooter -->
+    <!--Footer link-->
+   <section class="sectionFooter">
         <div>
             <nav class="footerNavLeft">
                 <ul class="nav">
@@ -300,6 +327,7 @@
             </div>
         </div>
     </section>
+    <!--Footr-->
     <footer class="sectionFooter">
         <div>
             <p class="footerLineLeft">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</p>
