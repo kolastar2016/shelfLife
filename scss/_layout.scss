@@ -1,0 +1,153 @@
+@media (max-width: 480px) {
+  .mainLogoImg {
+    display: none;
+  }
+
+  .MenuBottom {
+    padding: 0;
+  }
+
+  .MenuTop {
+    padding: 0;
+  }
+
+  .MenuTop > ul > p {
+    font-size: 0rem;
+  }
+
+  .MenuBottom > ul > li {
+    padding: 2rem 1rem !important;
+  }
+
+  .carousel {
+    display: none !important;
+  }
+
+  .bgMobile {
+    width: 30rem;
+  }
+
+  .hr {
+    width: auto;
+  }
+
+  .section {
+    height: 200rem;
+  }
+
+  .sectionBlog {
+    height: 166rem;
+  }
+
+  .triangleRight {
+    margin: 0 auto;
+  }
+
+  .textBlog {
+    margin-top: 10rem;
+  }
+
+  .widthMobile {
+    width: 30rem !important;
+  }
+
+  .imgOnBlogLeftSmallSecond {
+    margin: 0 !important;
+  }
+
+  .imgOnBlogRight {
+    height: 47.7rem !important;
+    width: 47.7rem !important;
+    float: none !important;
+  }
+
+  .triangleLeft {
+    margin: 0 auto;
+  }
+
+  .triangleRightOne {
+    margin: 0 auto;
+  }
+
+  .triangleLeftOne {
+    margin: 0 auto;
+  }
+
+  .triangleRightTwo {
+    margin: 0 auto;
+  }
+
+  .triangleLeftTwo {
+    margin: 0 auto;
+  }
+
+  .triangleRightThree {
+    margin: 0 auto;
+  }
+
+  .triangleLeftThree {
+    margin: 0 auto;
+  }
+
+  .triangleRightTwo {
+    margin: 0 auto;
+  }
+
+  .triangleRightTwo {
+    margin: 0 auto;
+  }
+
+  .moveImgPosition {
+    display: none !important;
+  }
+
+  .sectionButton {
+    height: 16rem;
+  }
+
+  .sectionLable {
+    display: none;
+  }
+
+  .cube {
+    display: none !important;
+  }
+
+  .footerNavLeft {
+    margin: 2rem;
+  }
+
+  .footerNavImg {
+    float: none !important;
+    margin: 0 auto !important;
+    display: block;
+  }
+
+  .footerNavRight {
+    margin: 3rem;
+  }
+
+  .footerLineLeft {
+    display: none;
+  }
+
+  .iconStyle {
+    margin: 0rem 4rem;
+
+    &:hover {
+      margin: 0rem 4rem;
+    }
+  }
+
+  .footerIconStyle {
+    display: inline-block;
+  }
+
+  .footerLineRight {
+    display: none;
+  }
+
+  .footerText {
+    margin: 2rem;
+  }
+}
